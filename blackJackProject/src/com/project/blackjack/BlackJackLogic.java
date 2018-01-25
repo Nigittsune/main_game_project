@@ -24,6 +24,7 @@ public class BlackJackLogic {
 			if(handValue > 21){
 				handValue -= 10;
 				System.out.println("Ace is becoming only 1 point");
+				System.out.println("Special Ace Feature");
 			}
 		}
 //		return handValue;
