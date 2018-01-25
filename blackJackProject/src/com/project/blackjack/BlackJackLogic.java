@@ -23,6 +23,7 @@ public class BlackJackLogic {
 		for (int i = 0; i < acesInHand; i++) {
 			if(handValue > 21){
 				handValue -= 10;
+				System.out.println("Ace is becoming only 1 point");
 			}
 		}
 //		return handValue;
