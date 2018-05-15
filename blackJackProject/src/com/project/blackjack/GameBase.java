@@ -6,5 +6,7 @@ public abstract class GameBase implements Gameable{
 	
 	HashMap<Player, PlayerHand> players;
 	
+	public abstract void startGame();
+	
 	public abstract void joinTable();
 }
